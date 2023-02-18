@@ -1,0 +1,28 @@
+main {
+    display: none;
+}
+
+#login {
+    border: 10px blue solid;
+    padding: 100px 30px;
+    display: flex;
+    margin: auto;
+    top: 50%;
+    left: 32.5%;
+    position: absolute;
+    transform: translate(0, -50%);
+    width: 30%;
+}
+
+#loginbutton {
+    background-color: rgb(0, 101, 168);
+    color: white;
+    border-radius: 5px;
+    border: 0px none;
+    padding: 10px;
+}
+
+#username, #pwd {
+    width: 27.5vw;
+    height: 3vh
+}
